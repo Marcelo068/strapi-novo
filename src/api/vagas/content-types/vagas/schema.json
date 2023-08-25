@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vagases",
+  "info": {
+    "singularName": "vagas",
+    "pluralName": "vagases",
+    "displayName": "Vagas"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Icone": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "IconeBranco": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "NomedaVaga": {
+      "type": "string",
+      "required": true
+    },
+    "QuantidadeVagas": {
+      "type": "integer",
+      "required": true
+    },
+    "RequisitosNecessarios": {
+      "type": "string",
+      "required": true
+    },
+    "RequisitosDesejaveis": {
+      "type": "string",
+      "required": true
+    },
+    "Beneficios": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
