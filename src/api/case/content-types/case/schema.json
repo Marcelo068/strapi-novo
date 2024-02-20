@@ -4,7 +4,8 @@
   "info": {
     "singularName": "case",
     "pluralName": "cases",
-    "displayName": "Case"
+    "displayName": "Case",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -51,36 +52,36 @@
       "minLength": 120
     },
     "Share": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
     "BannerDestaque": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
     "Desafio": {
       "pluginOptions": {
@@ -92,14 +93,15 @@
       "required": true
     },
     "ImagemDesafio": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
